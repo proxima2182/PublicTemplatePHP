@@ -1,0 +1,29 @@
+.popup {
+    width: 500px;
+}
+
+.popup-inner .text-wrap {
+    padding: 20px 0;
+}
+
+.popup-inner .button-wrap {
+    padding-top: 20px;
+}
+
+.popup-inner .button-wrap .button {
+    min-width: 100px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 840px) {
+    .popup {
+        width: calc(100% - 40px);
+    }
+
+    .popup-inner .button-wrap .button {
+        min-width: calc(50% - 20px);
+        margin: 0 5px;
+    }
+}

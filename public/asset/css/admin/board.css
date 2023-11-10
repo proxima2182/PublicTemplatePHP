@@ -1,0 +1,49 @@
+.table-wrap li .button.row-button {
+    padding-right: 50px;
+}
+
+.table-wrap .row-title .row {
+    padding-right: 50px;
+}
+
+.table-wrap .column.code {
+    width: 20%;
+}
+
+.table-wrap .column.type {
+    width: 20%;
+}
+
+.table-wrap .column.alias {
+    width: calc(60% - 80px);
+}
+
+.table-wrap .column.public {
+    width: 80px;
+}
+
+.table-wrap .row {
+    position: relative;
+}
+
+.table-wrap .button.detail {
+    width: 40px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    padding: 0;
+}
+
+@media (max-width: 840px) {
+    .table-wrap .column.code {
+        width: 30%;
+    }
+
+    .table-wrap .column.type {
+        display: none;
+    }
+
+    .table-wrap .column.alias {
+        width: calc(70% - 80px);
+    }
+}

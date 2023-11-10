@@ -1,0 +1,56 @@
+.form-wrap .input-wrap {
+    text-align: left;
+    margin: 10px 0;
+    font-size: 0;
+}
+
+.form-wrap .input-wrap * {
+    display: block;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.form-wrap .input-wrap .input-title {
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    word-break: keep-all;
+}
+
+.form-wrap .input-wrap input:not([type=checkbox]),
+.form-wrap .input-wrap textarea {
+    width: 100%;
+    font-weight: 200;
+}
+
+.form-wrap .input-wrap textarea {
+    height: 80px;
+}
+
+.form-wrap .input-wrap select {
+    height: 30px;
+    font-weight: 200;
+    background: #fff;
+    color: #000;
+}
+
+.form-wrap .input-wrap.inline * {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.form-wrap .input-wrap.inline .input-title {
+    width: calc(30% - 15px);
+    text-align: right;
+    margin-right: 15px;
+}
+
+.form-wrap .input-wrap.inline input:not([type=checkbox]),
+.form-wrap .input-wrap.inline textarea {
+    width: 70%;
+}
+
+.form-wrap .input-wrap.inline select {
+    width: 45%;
+}

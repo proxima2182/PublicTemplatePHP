@@ -1,0 +1,33 @@
+.table-wrap .column.name {
+    width: 20%;
+}
+
+.table-wrap .column.address {
+    width: 50%;
+}
+
+.table-wrap .column.latitude {
+    width: 15%;
+}
+
+.table-wrap .column.longitude {
+    width: 15%;
+}
+
+@media (max-width: 840px) {
+    .table-wrap .column.name {
+        width: 30%;
+    }
+
+    .table-wrap .column.address {
+        width: 70%;
+    }
+
+    .table-wrap .column.latitude {
+        display: none;
+    }
+
+    .table-wrap .column.longitude {
+        display: none;
+    }
+}

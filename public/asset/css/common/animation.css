@@ -1,0 +1,44 @@
+@keyframes popupFadeIn {
+    from {
+        margin-top: 100px;
+        opacity: 0.5;
+    }
+
+    to {
+        margin-top: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes popupFadeOut {
+    from {
+        margin-top: 0px;
+        opacity: 1;
+    }
+
+    to {
+        margin-top: 200px;
+        opacity: 0;
+    }
+}
+
+@keyframes headerSlideUp {
+    from {
+        height: 100%;
+    }
+
+    to {
+        height: 60px;
+    }
+}
+
+@keyframes headerSlideDown {
+    from {
+        height: 60px;
+    }
+
+    to {
+        height: 100%;
+    }
+}
+

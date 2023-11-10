@@ -1,0 +1,52 @@
+.page-inner, .container-inner {
+    padding-bottom: 60px;
+}
+
+.topic-wrap .row.link {
+    width: 100%;
+    padding: 0 5px;
+}
+
+.topic-wrap .row.link a {
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.topic-wrap .row.user a * {
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.topic-wrap .row .column.title {
+    width: calc(100% - 180px);
+}
+
+.topic-wrap .row .column.created-at {
+    width: 180px;
+    font-size: 16px;
+    text-align: right;
+}
+
+.topic-wrap .text-wrap .content {
+    min-height: 250px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 200;
+    white-space: pre-wrap;
+}
+
+.topic-wrap .control-button-wrap {
+    line-height: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+
+.container-wrap .line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}

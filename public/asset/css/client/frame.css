@@ -1,0 +1,8 @@
+.container-inner .container-wrap {
+    width: 1200px;
+    min-height: 600px;
+    padding: 40px 0 120px 0;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}

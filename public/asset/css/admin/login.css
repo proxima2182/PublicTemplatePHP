@@ -1,0 +1,35 @@
+
+.login-container h3.title {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.login-container .form-wrap {
+    margin: 10px 50px;
+}
+
+.login-container .control-button-wrap {
+    line-height: 20px;
+    font-weight: 600;
+    margin: 0 50px;
+}
+
+.login-container .control-button-wrap a {
+    margin: 3px;
+}
+
+.login-container .control-button-wrap span {
+    font-size: 16px;
+}
+
+.login-container .button-wrap {
+    margin: 20px 0;
+}
+
+.login-container .button-wrap .button {
+    min-width: 100px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+}
